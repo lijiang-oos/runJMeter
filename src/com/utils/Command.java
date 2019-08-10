@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Command {
 
-
+// 测试专用
     public static void exeCmd(String commandStr) throws IOException {
 
 
