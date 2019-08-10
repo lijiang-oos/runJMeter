@@ -4,7 +4,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+*  计算scprit 脚本下jmx 文件的个数
+*
+* */
 public class FIleNumber {
     public static List fileNumber() {
         //创建文件目录

@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Command {
 
-// 测试专用
+    // 命令行工具用于使用启动JMeter
     public static void exeCmd(String commandStr) throws IOException {
 
 
@@ -88,6 +88,7 @@ public class Command {
             for (int j = 1; j < 5; j++) {
 
             }
+            //启动JMeter脚本
 //            jmeter -JthreadCount=2 -Jcycle=200  jmeter执行的线程数 ，jmeter执行的循环数
             String commandStr = "jmeter.bat -n -t ./scprit/" +jmx+".jmx"
                     + " -l ./jtl/" +jmx+ ".jtl"
